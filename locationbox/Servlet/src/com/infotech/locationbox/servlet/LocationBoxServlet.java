@@ -91,9 +91,7 @@ public class LocationBoxServlet extends HttpServlet {
     protected static String mapUrlPrefix = null;
 
     protected static String dataSrc = null, baseMap = null, mvURL = null;
-
-    protected static String locationSymbolName = null;
-    protected static String defaultSymbolName = null;
+    protected static String locationSymbolName = null, defaultSymbolName = null;
 
     private static final String PACKAGE_TRAFIK = "TRAFIK";
     private static final String PACKAGE_NOBETCI_ECZANE = "NOBETCI_ECZANE";
